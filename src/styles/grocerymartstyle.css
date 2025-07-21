@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+
+.grocery-mart-container{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.gm-main-title{
+    background-color: darkgreen;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gm-dashboard-container{
+     background-color: lightgreen;
+    padding: 10px;
+}
+
+
+
+.input-text-form{
+   background-color: white;
+   padding: 10px;
+   border-radius: 10px;
+
+}
+
+.dashboard-title{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-field{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.input-field div{
+    border:1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.input-field div input{
+    background-color: transparent;
+    border: 0px solid;
+    padding: 5px;
+    width:170px;
+
+}
+input:focus{
+    outline: none;
+}
+
+.input-field-2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.input-field-2 div{
+    border:1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+
+    
+}
+
+.input-field-2 div input{
+    background-color: transparent;
+    border: 0px solid;
+    padding: 5px;
+    width:500px;
+
+}
+.input-field-2 input:focus{
+    outline: none;
+}
+
+.btn-additem{
+    background-color: darkgreen;
+    color:white;
+}
+button{
+    background-color:transparent;
+    border: none;
+    font-size:17px;
+    padding: 5px;
+    width:170px;
+    color:white;
+
+}
